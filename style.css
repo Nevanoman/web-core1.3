@@ -155,7 +155,7 @@ body {
 		position: relative;
 		left: 16px;
 		top: 5px;
-		content: url("/img/divider.svg");
+		content: url("img/divider.svg");
 	}
 
 	.blog {
