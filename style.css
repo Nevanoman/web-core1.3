@@ -133,8 +133,6 @@ body {
 
 .picture {
 	min-width: 320px;
-	min-height: auto;
-
 }
 
 .hidden__text {
@@ -165,14 +163,23 @@ body {
 	}
 
 	.blog {
-		display: block;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.tablet-vision {
 		display: none;
 	}
-}
 
+  .picture {
+  align-self: center;
+	min-width: 320px;
+	height: auto;
+	width: 100%;
+	max-width: 420px;
+ }
+
+}
 @media (min-width: 768px) and (max-width : 1119px) {
 
 	.navigation {
