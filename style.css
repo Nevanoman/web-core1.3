@@ -121,8 +121,6 @@ body {
 }
 
 .more {
-	width: 132px;
-	height: 24px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #F8F8F8;
