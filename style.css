@@ -68,7 +68,7 @@ body {
 .title::before {
 	position: absolute;
 	margin-left: -16px;
-	content: url(../maket/img/highlight.svg);
+	content: url(img/highlight.svg);
 }
 
 .menu {
@@ -95,14 +95,10 @@ body {
 	background-color: white;
 }
 
-
-
 .blog {
 	display: flex;
 	flex-wrap: wrap;
 }
-
-
 
 .text {
 	padding: 0px 16px 16px 16px;
@@ -134,7 +130,7 @@ body {
 }
 
 .more::before {
-	content: url("../maket/img/expand.svg");
+	content: url("img/expand.svg");
 }
 
 .picture {
@@ -159,7 +155,7 @@ body {
 		position: relative;
 		left: 16px;
 		top: 5px;
-		content: url("../maket/img/divider.svg");
+		content: url("/img/divider.svg");
 	}
 
 	.blog {
@@ -195,14 +191,14 @@ body {
 		position: relative;
 		left: 16px;
 		top: 5px;
-		content: url("../maket/img/divider.svg");
+		content: url("img/divider.svg");
 	}
 
 	.button:nth-child(1)::after {
 		position: relative;
 		left: 16px;
 		top: 5px;
-		content: url("../maket/img/divider.svg");
+		content: url("img/divider.svg");
 	}
 
 	.logo {
